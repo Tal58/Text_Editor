@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.3vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    
+}
+.menus{
+    padding-top: 2%;
+    text-align: center;
+    line-height: 4vw;
+}
+body textarea{
+    resize: none;
+    height: 28vw;
+    width: 90vw;
+}
+body label{
+    margin: 1%;
+}
+body select{
+    width: 10vw;
+}
+body input{
+    width:15vw;
+    overflow: scroll;
+}

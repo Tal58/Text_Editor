@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Text Creator File Sender</title>
+</head>
+<body>
+    <textarea name="text1" id="text1" contenteditable="true"></textarea>
+    <div class="menus">
+        <label for="font-family">Choose font family:</label>
+        <select id="font-family" onChange="update()" name="font-family" value="font-family" >
+            <option value="serif">serif</option>
+            <option value="sans-serif">sans-serif</option>
+            <option value="monosplace">monospace</option>
+            <option value="cursive">cursive</option>
+            <option value="fantasy">fantasy</option>
+            <option value="system-ui">system-ui</option>
+        </select>
+    
+        <label for="size">Choose font size</label>
+        <select name="size" id="size" onChange="sizeUpdate()" value="size">
+            <option value="large">large</option>
+            <option value="larger">larger</option>
+            <option value="medium">medium</option>
+            <option value="small">small</option>
+            <option value="smaller">smaller</option>
+        </select>
+     
+    <label for="stylecolor">Choose color</label>
+    <select name="color" id="color" onChange="updateColor()" value="color">
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="black">black</option>
+        <option value="purple">purple</option>
+        <option value="brown">brown</option>
+        <option value="aqua">aqua</option>
+    </select>
+    
+    <label for="text-align">Choose text align</label>
+    <select name="text-align" id="text-align" onChange="textAlign()" value="text-align">
+        <option value="center">center</option>
+        <option value="end">end</option>
+        <option value="justify">justify</option>
+        <option value="left">left</option>
+        <option value="right">right</option>
+    </select>
+    <input id="filename" placeholder="Specify your filename..."/>
+    <button id="download">Download file</button>
+    <button id="save" onclick="save()">Save the to the text local storage</button>
+    <button id="btn1" onclick="clearText()">Reset the text</button>
+    
+    
+    </div>
+    
+
+    <script src="./apps.js"></script>
+ 
+
+</body>
+</html>
