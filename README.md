@@ -12,7 +12,7 @@
 <br>
 <center> ⌛ Happy Coding  ✍ </center>
 <br><br>
-🌐 The desktop version of the web page are as follows;🧭
+🌐 The desktop version of the web page is as follows;🧭
 <br><br>
 
 ## 🖥️Desktop version
