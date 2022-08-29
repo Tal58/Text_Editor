@@ -8,7 +8,7 @@
 <br><br>
 😇Text can be downloaded in notepad (.txt) and word (.doc) format...
 <br><br>
-🔗 To see live version 🎯
+🔗 To see live version 🎯https://tal58.github.io/Text_Editor/
 <br>
 <center> ⌛ Happy Coding  ✍ </center>
 <br><br>
