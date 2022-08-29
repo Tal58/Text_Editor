@@ -1,4 +1,4 @@
-## Text Editor | Dynamic landing Page | JavaScript Project
+## Text Editor | Dynamic Landing Page | JavaScript Project
 
 👨‍💻 This project aims to improve my <b>HTML/CSS/JavaScript and DOM skills </b> 
 <br><br>
